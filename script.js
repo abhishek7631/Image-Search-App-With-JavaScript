@@ -5,3 +5,7 @@ const imagesContainer = document.querySelector(".images-container");
 
 // continue next time with this code
 // continue next time with this code
+
+// continue next time with this code
+// continue next time with this code
+// continue next time with this code
