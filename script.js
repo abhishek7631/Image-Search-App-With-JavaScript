@@ -44,6 +44,8 @@ const fetchImages = async (query, pageNo) => {
       }
     } else {
       imagesContainer.innerHTML = `<h2>No Image Found.</h2>`;
+      if (loadMoreBtn.style.display === "block")
+        loadMoreBtn.style.display = "none";
     }
   } catch (error) {
     imagesContainer.innerHTML = `<h2>Faild to fetch Images. Please try again later.</h2>`;
